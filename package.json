@@ -24,5 +24,10 @@
     "devDependencies": {
         "@vuepress/plugin-back-to-top": "^1.7.1",
         "vuepress": "^1.7.1"
+    },
+    "dependencies": {
+        "@vssue/api-github-v4": "^1.4.0",
+        "@vssue/vuepress-plugin-vssue": "^1.4.6",
+        "dayjs": "^1.9.4"
     }
 }
