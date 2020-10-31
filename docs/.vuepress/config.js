@@ -48,7 +48,8 @@ module.exports = {
             { text: 'Vue文档', link: 'https://cn.vuejs.org/v2/guide/' },
             { text: 'View UI文档', link: 'https://www.iviewui.com/docs/guide/start' },
         ],
-        activeHeaderLinks: false,
+        // 页面切换时，浏览器地址栏跟着变化
+        activeHeaderLinks: true,
         sidebar: [{
             title: "指南",
             collapsable: false,
