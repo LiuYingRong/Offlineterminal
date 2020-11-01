@@ -36,13 +36,13 @@
 | 打开Excel文件    | 刘英融 |              |          | <Badge text="完成" type="tip"/>       |
 | 记录单生成       | 刘英融 |              |          | <Badge text="进行中" type="tip"/>     |
 | 登录验证         | 刘英融 |              |          | <Badge text="完成" type="tip"/>       |
-| 4.2.2、采样数据  |        |              |          | <Badge text="进行中" type="tip"/>     |
-| 4.2.3、样品信息  |        |              |          | <Badge text="进行中" type="tip"/>     |
-| 4.2.4、回收站    |        |              |          | <Badge text="进行中" type="tip"/>     |
-| 4.3、数据上传    |        |              |          | <Badge text="进行中" type="tip"/>     |
-| 4.3.1、采样数据  |        |              |          | <Badge text="进行中" type="tip"/>     |
-| 4.3.2、现场分析  |        |              |          | <Badge text="进行中" type="tip"/>     |
-| 4.4、历史航次    |        |              |          | <Badge text="进行中" type="tip"/>     |
+| 4.2.2、采样数据  |        |              |          | <Badge text="进行中" type="warning"/>     |
+| 4.2.3、样品信息  |        |              |          | <Badge text="进行中" type="warning"/>     |
+| 4.2.4、回收站    |        |              |          | <Badge text="进行中" type="warning"/>     |
+| 4.3、数据上传    |        |              |          | <Badge text="进行中" type="warning"/>     |
+| 4.3.1、采样数据  |        |              |          | <Badge text="进行中" type="warning"/>     |
+| 4.3.2、现场分析  |        |              |          | <Badge text="进行中" type="warning"/>     |
+| 4.4、历史航次    |        |              |          | <Badge text="进行中" type="warning"/>     |
 
 > 现场作业和数据上传有很多页面时类似是否能通用列表信息比如采样列表信息，如果一样可以考虑做成组件，但是这个需要你考虑规划好代码
 
@@ -62,6 +62,7 @@
 3. 现场采样记录单生成
 4. 采样信息查看等
 5. 历史记录
+6. 软件更新
 
 ## 近期计划
 
