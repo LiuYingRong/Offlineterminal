@@ -2,47 +2,48 @@
 
 ## 任务安排
 
-| 任务名称         | 负责人 | 开发起止时间 | 开发时长 | 是否完成                              |
-| ---------------- | ------ | ------------ | -------- | ------------------------------------- |
-| 1、技术选型      | 刘英融 |              |          | <Badge text="完成" type="tip"/>       |
-| 2、公共组件      |        |              |          |                                       |
-| 分页组件         | 刘英融 |              |          | <Badge text="完成" type="tip"/>       |
-| 列表组件         | 刘英融 |              |          | <Badge text="完成" type="tip"/>       |
-| 3、登录          |        |              |          |
-| 登录界面         | 刘英融 |              |          | <Badge text="完成" type="tip"/>       |
-| 登录验证         | 刘英融 |              |          | <Badge text="完成" type="tip"/>       |
-| 4、框架          |        |              |          |
-| 搭建             | 刘英融 |              |          | <Badge text="完成" type="tip"/>       |
-| 路由搭建         | 刘英融 |              |          | <Badge text="进行中" type="warning"/> |
-| 公共样式、自适应 | 刘英融 |              |          | <Badge text="进行中" type="warning"/> |
-| 注销             | 刘英融 |              |          | <Badge text="完成" type="tip"/>       |
-| 4.1、航次信息    |        |              |          |
-| 在线状态         | 刘英融 |              |          | <Badge text="完成" type="tip"/>       |
-| 航次下载         | 刘英融 |              |          | <Badge text="完成" type="tip"/>       |
-| 文件下载         | 刘英融 |              |          | <Badge text="进行中" type="warning"/> |
-| 手机在线状态     | 刘英融 |              |          | <Badge text="进行中" type="warning"/> |
-| 手机下载         | 刘英融 |              |          | <Badge text="进行中" type="warning"/> |
-| 4.2、站位规划    |        |              |          |
-| 树状菜单         | 刘英融 |              |          | <Badge text="进行中" type="warning"/> |
-| 菜单栏           | 刘英融 |              |          | <Badge text="进行中" type="warning"/> |
-| 地图             | 刘英融 |              |          | <Badge text="进行中" type="warning"/> |
-| 站位编辑         | 刘英融 |              |          | <Badge text="进行中" type="warning"/> |
-| 4.2、现场作业    |        |              |          | <Badge text="进行中" type="warning"/> |
-| 4.2.1、现场分析  |        |              |          | <Badge text="进行中" type="warning"/> |
-| sqlite备份还原   | 刘英融 |              |          | <Badge text="完成" type="tip"/>       |
-| 记录单列表       | 刘英融 |              |          | <Badge text="待优化" type="error"/>   |
-| 新增记录单       | 刘英融 |              |          | <Badge text="进行中" type="tip"/>     |
-| 选择样品         | 刘英融 |              |          | <Badge text="待优化" type="error"/>   |
-| 打开Excel文件    | 刘英融 |              |          | <Badge text="完成" type="tip"/>       |
-| 记录单生成       | 刘英融 |              |          | <Badge text="进行中" type="tip"/>     |
-| 登录验证         | 刘英融 |              |          | <Badge text="完成" type="tip"/>       |
-| 4.2.2、采样数据  |        |              |          | <Badge text="进行中" type="warning"/>     |
-| 4.2.3、样品信息  |        |              |          | <Badge text="进行中" type="warning"/>     |
-| 4.2.4、回收站    |        |              |          | <Badge text="进行中" type="warning"/>     |
-| 4.3、数据上传    |        |              |          | <Badge text="进行中" type="warning"/>     |
-| 4.3.1、采样数据  |        |              |          | <Badge text="进行中" type="warning"/>     |
-| 4.3.2、现场分析  |        |              |          | <Badge text="进行中" type="warning"/>     |
-| 4.4、历史航次    |        |              |          | <Badge text="进行中" type="warning"/>     |
+| 任务名称               | 负责人 | 开发起止时间 | 开发时长 | 任务状态                                  |
+| ---------------------- | ------ | ------------ | -------- | ----------------------------------------- |
+| 1、技术选型            | 刘英融 |              |          | <status type="completed" text="完成"/>    |
+| 2、公共组件            |        |              |          |                                           |
+| 2.1 分页组件           | 刘英融 |              |          | <status type="error" text="待优化"/>      |
+| 2.2 列表组件           | 刘英融 |              |          | <status type="error" text="待优化"/>      |
+| 2.3 状态组件           | 刘英融 | 2020.11.2    | 2h       | <status type="completed" text="已完成"/>  |
+| 3、登录                |        |              |          |
+| 3.1 登录界面           | 刘英融 |              |          | <status type="completed" text="完成"/>    |
+| 3.2 登录验证           | 刘英融 |              |          | <status type="completed" text="完成"/>    |
+| 3.3 登录优化           | 刘英融 |              |          | <status type="error" text="待优化"/>      |
+| 4、框架                |        |              |          |
+| 4.0.1 搭建             | 刘英融 |              |          | <status type="completed" text="完成"/>    |
+| 4.0.2 路由搭建         | 刘英融 |              |          | <status text="进行中" type="processing"/> |
+| 4.0.3 公共样式、自适应 | 刘英融 |              |          | <status text="进行中" type="processing"/> |
+| 4.0.4 注销             | 刘英融 |              |          | <status type="completed" text="完成"/>    |
+| 4.1、航次信息          |        |              |          |
+| 4.1.1 在线状态         | 刘英融 |              |          | <status type="completed" text="完成"/>    |
+| 4.1.2 航次下载         | 刘英融 |              |          | <status type="completed" text="完成"/>    |
+| 4.1.3 文件下载         | 刘英融 |              |          | <status text="进行中" type="processing"/> |
+| 4.1.4 手机在线状态     | 刘英融 |              |          | <status text="进行中" type="processing"/> |
+| 4.1.5 手机下载         | 刘英融 |              |          | <status text="进行中" type="processing"/> |
+| 4.2、站位规划          |        |              |          |
+| 4.2.1 树状菜单         | 刘英融 |              |          | <status text="进行中" type="processing"/> |
+| 4.2.2 菜单栏           | 刘英融 |              |          | <status text="进行中" type="processing"/> |
+| 4.2.3 地图             | 刘英融 |              |          | <status text="进行中" type="processing"/> |
+| 4.2.4 站位编辑         | 刘英融 |              |          | <status text="进行中" type="processing"/> |
+| 4.3、现场作业          |        |              |          | <status text="进行中" type="processing"/> |
+| 4.3.1 现场分析         |        |              |          | <status text="进行中" type="processing"/> |
+| 4.3.2 sqlite备份还原   | 刘英融 |              |          | <status type="completed" text="完成"/>    |
+| 4.3.3 记录单列表       | 刘英融 |              |          | <status type="error" text="待优化"/>      |
+| 4.3.4 新增记录单       | 刘英融 |              |          | <status text="进行中" type="processing"/> |
+| 4.3.5 选择样品         | 刘英融 |              |          | <status type="error" text="待优化"/>      |
+| 4.3.6 打开Excel文件    | 刘英融 |              |          | <status type="completed" text="完成"/>    |
+| 4.3.7 记录单生成       | 刘英融 |              |          | <status text="进行中" type="processing"/> |
+| 4.3.8 采样数据         |        |              |          | <status text="进行中" type="processing"/> |
+| 4.3.9 样品信息         |        |              |          | <status text="进行中" type="processing"/> |
+| 4.3.10 回收站          |        |              |          | <status text="进行中" type="processing"/> |
+| 4.3.11 数据上传        |        |              |          | <status text="进行中" type="processing"/> |
+| 4.3.12 采样数据        |        |              |          | <status text="进行中" type="processing"/> |
+| 4.3.13 现场分析        |        |              |          | <status text="进行中" type="processing"/> |
+| 4.3.14 历史航次        |        |              |          | <status text="进行中" type="processing"/> |
 
 > 现场作业和数据上传有很多页面时类似是否能通用列表信息比如采样列表信息，如果一样可以考虑做成组件，但是这个需要你考虑规划好代码
 

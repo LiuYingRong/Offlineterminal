@@ -29,6 +29,8 @@
         "@vssue/api-github-v4": "^1.4.0",
         "@vssue/vuepress-plugin-vssue": "^1.4.6",
         "dayjs": "^1.9.4",
+        "less": "^3.12.2",
+        "less-loader": "^7.0.2",
         "view-design": "^4.4.0"
     }
 }
